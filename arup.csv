@@ -1,0 +1,25 @@
+Scenario,Interest group,Country,SEW(bn)
+LW,Consumer,GB,-2.3
+LW,Producer,GB,4.3
+LW,Interconnector,GB,0.4
+LW,Total,GB,2.3
+CT,Consumer,GB,-5.6
+CT,Producer,GB,7.1
+CT,Interconnector,GB,-0.5
+CT,Total,GB,2.1
+FS,Consumer,GB,-4.6
+FS,Producer,GB,5.6
+FS,Interconnector,GB,0.3
+FS,Total,GB,1.4
+LW,Consumer,Germany,4
+LW,Producer,Germany,-3
+LW,Interconnector,Germany,0.9
+LW,Total,Germany,1.9
+CT,Consumer,Germany,6.3
+CT,Producer,Germany,-5.1
+CT,Interconnector,Germany,1
+CT,Total,Germany,2.2
+FS,Consumer,Germany,6.6
+FS,Producer,Germany,-5.2
+FS,Interconnector,Germany,0.2
+FS,Total,Germany,1.6
