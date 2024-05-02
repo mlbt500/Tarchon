@@ -2,6 +2,8 @@ library(ggplot2)
 library(ggtext)
 library(scales)
 library(gridExtra)
+
+arup <- read.csv("arup.csv")
 # Step 1: Create a new data frame called adjusted_arup by making a copy of the arup data frame
 adjusted_arup <- arup
 
