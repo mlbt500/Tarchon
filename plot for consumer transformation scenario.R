@@ -9,7 +9,7 @@ ct_data <- merged_arup[merged_arup$Scenario == "CT", ]
 ct_data$Country <- ifelse(ct_data$Country == "Foreign Best Case*", "Foreign*", ct_data$Country)
 
 # Reorder the levels of the Adjustment factor and change labels
-ct_data$Adjustment <- factor(ct_data$Adjustment, levels = c("Unadjusted", "Adjusted"), labels = c("Original", "Corrected"))
+ct_data$Adjustment <- factor(ct_data$Adjustment, levels = c("Unadjusted", "Adjusted"), labels = c("As presented", "Corrected"))
 
 # Create the plot
 plot <- ggplot(ct_data, aes(x = Interest.group, y = SEW.bn., fill = Interest.group)) +
@@ -29,7 +29,7 @@ plot <- ggplot(ct_data, aes(x = Interest.group, y = SEW.bn., fill = Interest.gro
         axis.text.y = element_text(size = 10),
         axis.title.y = element_text(size = 12, margin = margin(r = 10)),
         strip.text = element_text(size = 12, face = "bold"),
-        panel.spacing = unit(1, "lines"),
+        panel.spacing.x = unit(2, "lines"),
         plot.margin = margin(30, 20, 10, 20),
         text = element_text(family = "Arial"),
         plot.title = element_text(hjust = 0.5, size = 18, face = "bold", lineheight = 1.2),
